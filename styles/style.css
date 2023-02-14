@@ -1451,17 +1451,17 @@ footer .container .content .text.copy {
     }
 
     .container.video .content .video iframe {
-        width: 370px;
+        width: 340px;
         height: 200px;
 
     }
     
     .container.video .content .btn {
-        width: 370px;
+        width: 340px;
     }
 
     .container.video .content .btn a {  
-        padding: 16px;
+        padding: 8px;
     }
 
     .container.steps .content .text .title h2::before {
@@ -1471,7 +1471,7 @@ footer .container .content .text.copy {
         position: absolute;
         top: -4px;
         right: 0px;
-        left: 20px;
+        left: 4px;
     
         border-radius: 32px;
     
@@ -1486,7 +1486,7 @@ footer .container .content .text.copy {
     }
 
     .container.steps .content .img img {
-        width: 200px;
+        width: 170px;
        
         position: relative;
     }
@@ -1496,7 +1496,7 @@ footer .container .content .text.copy {
     }
 
     .container.steps .content .column.items {
-        width: 370px;
+        width: 340px;
     
         align-items: center;
     }
@@ -1518,7 +1518,7 @@ footer .container .content .text.copy {
         position: absolute;
         top: -4px;
         right: 0px;
-        left: 8px;
+        left: 60px;
     
         border-radius: 32px;
     
@@ -1532,12 +1532,12 @@ footer .container .content .text.copy {
     }
 
     .container.smile .content .img img {
-        width: 224px;
-        height: 224px;
+        width: 200px;
+        height: 200px;
     }
 
     .container.who .content {
-        padding: 80px 16px;
+        padding: 80px 8px;
     }
 
     .container.who .content .row {
@@ -1547,7 +1547,7 @@ footer .container .content .text.copy {
     }
 
     .container.who .content .img {
-        width: 200px;
+        width: 193px;
         
         position: relative;
         margin-right: auto;
@@ -1560,7 +1560,7 @@ footer .container .content .text.copy {
     
         position: absolute;
         bottom: 8px;
-        left: 116px;
+        left: 100px;
     
         background-color: var(--green);
     
@@ -1570,7 +1570,7 @@ footer .container .content .text.copy {
     }
 
     .container.who .content .img img {
-        width: 193px;
+        width: 177px;
     
         z-index: 5;
     }
@@ -1579,6 +1579,12 @@ footer .container .content .text.copy {
         width: 100%;
 
         margin-top: 32px;
+
+        text-align: center;
+    }
+
+    .container.who .content .text .title h2::before {
+        left: 50px;
     }
 
     .container.who .content .text .paragraph {
@@ -1586,29 +1592,29 @@ footer .container .content .text.copy {
     }
 
     .container.faq .content {
-        padding: 120px 16px;
+        padding: 120px 8px;
     }
 
     .container.faq .content .column.q-a .item-faq {
-        width: 370px;
+        width: 340px;
     }
 
     .container.faq .content .btn {
-        width: 370px;
+        width: 340px;
     
         margin: 64px auto 0;
     }
 
     .container.faq .content .btn a {
-        padding: 16px;
+        padding: 8px;
     }
 
     .container.carousel .content .text .title h2::before {
-        left: 60px;
+        left: 30px;
     }
 
     .container.carousel .content .carousel .img img {
-        width: 220px;
+        width: 200px;
         height: auto;
         
         border-radius: 4px;
@@ -1630,7 +1636,7 @@ footer .container .content .text.copy {
     }
 
     footer .container .content .map iframe {
-        width: 370px;
+        width: 340px;
         height: 200px;
         
         border-radius: 4px;
@@ -1638,7 +1644,7 @@ footer .container .content .text.copy {
 
     footer .container .content .column.map,
     footer .container .content .column.social {
-        width: 370px;
+        width: 340px;
     
         margin: 8px auto;
     }
