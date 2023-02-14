@@ -1324,6 +1324,327 @@ footer .container .content .text.copy {
     footer .container .content .text.social,
     footer .container .content .icons {
         text-align: center;
+    }  
+}
+
+@media only screen and (min-device-width : 321px) and (max-device-width : 375px) {
+    small {
+        font-size: 12px;
+        line-height: 14px;
     }
     
+    p {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 19px;
+    }
+    
+    h6 {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 21px;
+    }
+    
+    h5 {
+        font-size: 21px;
+        line-height: 25px;
+    }
+    
+    h4 {
+        font-size: 25px;
+        line-height: 30px;
+    }
+    
+    h3 {
+        font-size: 31px;
+        line-height: 37px;
+    }
+    
+    h2 {
+        font-size: 37px;
+        line-height: 44px;
+    }
+    
+    h1 {
+        font-size: 44px;
+        line-height: 52px;
+    }
+
+    .content {
+        width: 100%;
+    
+        position: relative;
+        padding: 100px 8px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    nav .container .content {
+        padding: 0 8px;
+    }
+
+    nav .container .content .links {
+        margin: auto 16px auto auto;
+        display: flex;
+        flex-direction: row;
+    }
+
+    nav .container .content .links a {
+        margin-right: 16px;
+        
+        color: var(--white);
+        font-size: 18px;
+        line-height: 21px;
+        font-weight: 700;
+    
+        cursor: pointer;
+    }
+
+    nav .container .content .btn {
+        display: none;
+    }    
+
+    .container.header .content {
+        padding-top: 114px;
+        padding-bottom: 100px;
+
+        overflow: hidden;
+    }
+
+    .container.header .content .text {
+        width: 100%;
+    
+        text-align: center;
+
+        z-index: 5;
+    }
+
+    .container.header .content .text .title {
+        margin-bottom: 32px;
+    }
+
+    .container.header .content .btn {
+        margin: 64px auto 0;
+
+        z-index: 5;
+    }
+
+    .container.header .content .img {
+        top: auto;
+        right: -80px;
+        bottom: -105px;
+    }
+
+    .container.header .content .img img {
+        width: 340px;
+    
+        object-fit: contain;
+    }
+
+    .container.video .content {
+        padding: 100px 16px;
+    }
+    
+    .container.video .content::before {
+        background-size: contain;
+    }
+
+    .container.video .content .video iframe {
+        width: 370px;
+        height: 200px;
+
+    }
+    
+    .container.video .content .btn {
+        width: 370px;
+    }
+
+    .container.video .content .btn a {  
+        padding: 16px;
+    }
+
+    .container.steps .content .text .title h2::before {
+        width: 130px;
+        height: 4px;
+    
+        position: absolute;
+        top: -4px;
+        right: 0px;
+        left: 20px;
+    
+        border-radius: 32px;
+    
+        background-color: var(--green);
+    
+        content: "";
+    }
+
+    .container.steps .content .img {
+        margin-right: 0;
+        margin-bottom: 32px;
+    }
+
+    .container.steps .content .img img {
+        width: 200px;
+       
+        position: relative;
+    }
+
+    .container.steps .content .row {
+        flex-direction: column;
+    }
+
+    .container.steps .content .column.items {
+        width: 370px;
+    
+        align-items: center;
+    }
+    
+    .container.steps .content .item h4 {
+        padding: 12px 0;
+    }
+    
+    .container.steps .content .item.large h6,    
+    .container.steps .content .item.medium h6,
+    .container.steps .content .item.small h6 {
+        width: 320px;
+    }
+
+    .container.differentials .content .text .title h2::before {
+        width: 130px;
+        height: 4px;
+    
+        position: absolute;
+        top: -4px;
+        right: 0px;
+        left: 8px;
+    
+        border-radius: 32px;
+    
+        background-color: var(--blue);
+    
+        content: "";
+    }
+
+    .container.smile .content .text .title {
+        width: 90%;
+    }
+
+    .container.smile .content .img img {
+        width: 224px;
+        height: 224px;
+    }
+
+    .container.who .content {
+        padding: 80px 16px;
+    }
+
+    .container.who .content .row {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container.who .content .img {
+        width: 200px;
+        
+        position: relative;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .container.who .content .img span.green-circle {
+        width: 84px;
+        height: 84px;
+    
+        position: absolute;
+        bottom: 8px;
+        left: 116px;
+    
+        background-color: var(--green);
+    
+        border-radius: 50%;
+    
+        z-index: -1;
+    }
+
+    .container.who .content .img img {
+        width: 193px;
+    
+        z-index: 5;
+    }
+
+    .container.who .content .text {
+        width: 100%;
+
+        margin-top: 32px;
+    }
+
+    .container.who .content .text .paragraph {
+        margin-top: 32px;
+    }
+
+    .container.faq .content {
+        padding: 120px 16px;
+    }
+
+    .container.faq .content .column.q-a .item-faq {
+        width: 370px;
+    }
+
+    .container.faq .content .btn {
+        width: 370px;
+    
+        margin: 64px auto 0;
+    }
+
+    .container.faq .content .btn a {
+        padding: 16px;
+    }
+
+    .container.carousel .content .text .title h2::before {
+        left: 60px;
+    }
+
+    .container.carousel .content .carousel .img img {
+        width: 220px;
+        height: auto;
+        
+        border-radius: 4px;
+        
+        object-fit: fill;
+    }
+
+    footer .container .content {
+        padding: 16px;
+    }
+
+    footer .container .content .row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    footer .container .content .column.upper {
+        align-items: center;
+    }
+
+    footer .container .content .map iframe {
+        width: 370px;
+        height: 200px;
+        
+        border-radius: 4px;
+    }
+
+    footer .container .content .column.map,
+    footer .container .content .column.social {
+        width: 370px;
+    
+        margin: 8px auto;
+    }
+
+    footer .container .content .text.social,
+    footer .container .content .icons {
+        text-align: center;
+    }
 }
