@@ -1005,6 +1005,125 @@ footer .container .content .text.copy {
     text-align: center;
 }
 
+@media only screen and (min-device-width : 767px) and (max-device-width : 1024px) {
+    .content {
+        padding: 100px 40px;
+    }
+
+    nav .container .content {
+        padding: 0 40px;
+    }
+
+    nav .container .content .links {
+        margin: auto 100px auto auto;
+    }
+
+    .container.header .content {
+        overflow: hidden;
+    }
+
+    .container.header .content .text {
+        width: 70%;
+    }
+
+    .container.header .content .img {
+        position: absolute;
+        top: 62px;
+        right: -64px;
+    }
+
+    .container.header .content .img img {
+        width: 550px;
+        height: auto;
+    
+        object-fit: contain;
+    }
+
+    .container.steps .content .text .title h2::before {
+        left: 180px;
+    }
+
+    .container.steps .content .img {
+        margin-right: 100px;
+    }
+
+    .container.steps .content .img img {
+        width: 240px;
+    }
+
+    .container.differentials .content .text .title h2::before {
+        left: 140px;
+    }
+
+    .container.smile .content .text .subtitle {
+        width: 80%;
+    }
+
+    .container.smile .content .text .title {
+        width: 65%;
+    }
+
+    .container.smile .content .img img {
+        width: 264px;
+        height: 264px;
+    }
+
+    .container.who .content {
+        padding: 80px;
+    }
+
+    .container.who .content .img {
+        width: 223px;
+
+        margin-right: 100px;
+    }
+
+    .container.who .content .img span.green-circle {
+        width: 100px;
+        height: 100px;
+
+        left: 126px;
+    }
+
+    .container.who .content .img img {
+        width: 217px;
+    }
+
+    .container.who .content .text {
+        width: 100%;
+    }
+
+    .container.faq .content {
+        padding: 120px 80px;
+    }
+    
+    .container.carousel .content .text .title h2::before {
+        left: 325px;
+    }
+
+    .container.carousel .content .carousel .img img {
+        width: 200px;
+        height: 130px;
+    }
+
+    footer .container .content {
+        padding: 16px 80px;
+    }
+
+    footer .container .content .map iframe {
+        width: 370px;
+        height: 200px;
+        
+        border-radius: 4px;
+    }
+    
+    footer .container .content .column.map {
+        width: 370px;
+    
+        margin: 0 0 0 auto;
+    }
+}
+
 @media only screen and (min-device-width : 376px) and (max-device-width : 425px) {
     small {
         font-size: 12px;
